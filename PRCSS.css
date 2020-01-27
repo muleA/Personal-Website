@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  /* box sizing allows us to include the padding and border in an element's total width and heigh */
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1, h3, u {
+  color: rgb(177, 13, 21);
+}
+
+h6 {
+  font-size: 1.7vw;
+  color: rgb(238, 240, 241);
+  font-weight: bolder;
+}
+
+p, span {
+  color: rgb(14, 13, 13);
+  font-size: 2vw;
+}
+
+#introduction_paragraph {
+  margin-top: 4vw;
+}
+
+.header {
+  background-color: rgb(102, 154, 211);
+  width: 100%;
+  top: -1vw;
+  height: 12vw;
+  text-align: center;
+  position: fixed;
+  margin-left: 0vw;
+  overflow: hidden;
+}
+
+#headerp {
+  font-weight: bolder;
+  /*  this css allow to add style to the text on header of page */
+  font-size: 5vw;
+  color: whitesmoke;
+  padding-top: 0vw;
+}
+
+.footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 5px;
+  color: rgb(228, 229, 235);
+  background-color: rgb(91, 153, 211);
+  width: 100%;
+  height: 100%;
+  overflow: none;
+}
+
+.navigation_bar {
+  float: left;
+  width: 20%;
+  height: 50vw;
+  background: rgb(111, 159, 179);
+  padding-left: -25vw;
+  margin-top: 9vw;
+  margin-left: 0vw;
+}
+
+.Inavigation_bar {
+  float: left;
+  width: 20%;
+  height: 50vw;
+  background: rgb(111, 159, 179);
+  padding-left: -25vw;
+  margin-top: 9vw;
+  margin-left: 0vw;
+}
+
+.Barticle, .Harticle, .rarticle, .Sarticle, .Iarticle {
+  float: left;
+  padding: 2vw;
+  width: 80vw;
+  word-wrap: break-word;
+  background-color: rgb(163, 184, 184);
+  height: 683px;
+  color: rgb(7, 44, 253, 53);
+  margin-top: -50vw;
+  margin-left: 19%;
+  overflow: auto;
+  /* scroll if size not feat  */
+}
+
+.Iarticle {
+  height: 50vw;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a:hover {
+  background-color: black;
+  visibility: visible;
+}
+
+li a {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding-left: -5vw;
+  padding: 1vw;
+  font-size: 1.5vw;
+  border-radius: 1vw;
+  margin-left: -3vw;
+  margin-right: 1vw;
+  font-weight: bolder;
+}
+
+#index {
+  margin-top: 7vw;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.current a {
+  background-color: rgb(189, 86, 27);
+}
+
+.curr a:active {
+  background-color: rgb(211, 98, 23);
+}
+
+a.myID:hover {
+  text-decoration: underline;
+  color: black;
+  font-weight: bolder;
+  font-size: 170%;
+}
+
+/*  @media screen is important to make website responsive to view consistently in different devvice  */
+
+@media screen and (max-width:992px) {
+  .header, .footer {
+    width: 100vw;
+  }
+  .header {
+    margin-top: -4vw;
+    height: 20vw;
+  }
+  #ind {
+    margin-top: 16vw;
+    text-align: center;
+  }
+  .navigation_bar {
+    margin-top: 11vw;
+    margin-left: 0vw;
+    height: 185vw;
+    text-align: left;
+  }
+  .Iarticle, .rarticle, .Barticle, .Sarticle, .Harticle {
+    margin-left: 19vw;
+    margin-top: -185vw;
+    height: 185vw;
+    width: 80vw;
+    word-wrap: break-word;
+  }
+  .Inavigation_bar {
+    height: 185vw;
+    text-align: left;
+  }
+  .Iarticle {
+    padding: 1vw;
+    margin-top: -185vw;
+    margin-left: 19vw;
+    height: 185vw;
+    width: 80vw;
+  }
+  table, th, td img {
+    margin-top: 0.7vw;
+    height: 7vw;
+    width: 8vw;
+    padding: 1vw;
+  }
+}
+
+.Ifooter, .Hfooter, .Bfooter, .sfooter, .rfooter {
+  margin-top: -10vw;
+  margin-left: 0vw;
+}
+
+a.myID {
+  color: rgb(8, 8, 231);
+  text-decoration: solid;
+  background-color: transparent;
+}
+
+.contact {
+  padding: 0vw;
+  margin-top: 3vw;
+  width: 50vw;
+  height: 20vw;
+}
+
+table, th, td {
+  padding: 0.2vw;
+  margin-top: 5vw;
+}
+
+span {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: algerian, courier;
+  line-height: 80%;
+  color: red;
+}
