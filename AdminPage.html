@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="adminPage.css">
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+    <div class="container header">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img src="IMAGE/imagelogo.jpg" alt="logo" style="margin-left: 
+                0px; width: 50% !important; height: 70px; margin-bottom: 0.6vw;">
+            </a>
+        </div>
+        <div class="navbar-collapse collapse">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!--  / top navigation bar -->
+    <div class="container">
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active"> <i class="fa fa-home"></i > DashBoard</a>
+
+            <a href="#home"> <i class="fa fa-user-circle"></i > Users</a>
+           <!--  <a href="#home">Transaction</a> -->
+            <a href="#home">  <i class="fa fa-archive"></i > Archive</a>
+            <div class="dropdown">
+                <button class="dropbtn">  <i class="fa fa-book"></i > Books
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Add Books</a>
+                    <a href="#">View Books</a>
+
+                </div>
+            </div>
+
+<!-- //////////////////////////////////////////////////// -->
+
+            <div class="dropdown">
+                <button class="dropbtn"> <i class="fa fa-user-circle"></i > Librarian
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Add Librarian</a>
+                    <a href="#">View Librarian</a>
+                    <a href="#">Add Librarian</a>
+                    <a href="#">View Librarian</a>
+
+                </div>
+            </div>
+
+
+            <!-- //////// -->
+            <a href="#home"> <i class="fa fa-address-card"></i>My Profile</a>
+            <a href="#home">Uplod Notice</a>
+            <a href="#home"> <i class="fa fa-bell"></i>Notification &amp; Message</a>
+            <!-- //////////////////// -->
+            <div class="topnav-right">
+                <div class="dropdown">
+                    <button class="dropbtn"><i class="fa fa-user-circle" aria-hidden="true"></i>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+
+                        <a href="#"> <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                            change password</a>
+                        <a href="AdminPage.html">
+                            <i class="fa fa-sign-out" aria-hidden="true"></i>
+                            LogOut</a>
+
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+
+        </script>
+
+
+
+        <!--  left navigation begins -->
+
+
+        <div class="col-md-2 column-divider col-sm-2">
+
+
+            <div class="list-group pull-left hidden-sm hidden-xs">
+                <span class="list-group-item active">
+                    Navigation
+                </span>
+                <a id="ml1" href="#" class="list-group-item">
+                    Add Books
+                </a>
+                <a id="ml2" href="#" class="list-group-item">
+                    View Books
+                </a>
+                <a id="ml4" href="#" class="list-group-item">
+                    Add Librarian
+                </a>
+                <a id="ml15" href="#" class="list-group-item">
+                    View Librarian
+                </a>
+                <a id="ml17" href="#" class="list-group-item">
+                    Uplode Notice
+                </a>
+
+
+
+
+
+                <div class="list-group pull-left hidden-sm hidden-xs">
+                    <span class="list-group-item active">
+                        Quick Links
+                    </span>
+                    <a href="#" class="list-group-item">
+                        Admin Information
+                    </a>
+                    <a href="#" class="list-group-item">
+                        My Profile
+                    </a>
+                    <a href="#" class="list-group-item">
+                    View Books
+                    </a>
+                    <a href="#" class="list-group-item">
+                        View Liabrarian
+                    </a>
+                    <a href="#" class="list-group-item">
+                        Change Password
+                    </a>
+
+                    <a href="#" class="list-group-item">
+                        Logout
+                    </a>
+                </div>
+
+
+            </div>
+
+
+            <!--  tabs  -->
+
+
+            <div class="widget-content" style="width: 920px">
+
+                <div class="col-md-6" style="width: 700px">
+                    <table class="" cellpadding="3" style="float: left">
+                        <tbody><tr>
+                        <!--     <td width="120px;"><strong> Full Name </strong></td>
+                            <td width="250px;"> MULUGETA ADAMU GOBEZE </td> -->
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp; </td>
+                        </tr>
+                        <tr>
+                           <!--  <td width="90px;"><strong> ID No. </strong></td>
+                            <td width="250px;"> NSR/7036/10 </td> -->
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <!-- <td width="90px;"><strong> Department </strong></td>
+                            <td width="250px;"> School of Information Science </td> -->
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <!-- <td width="90px;"><strong> Year </strong></td>
+                            <td width="250px;"> Year III </td> -->
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody></table>
+                </div>
+                <div class="col-md-6" style="width: 180px">
+                 
+                </div>
+              
+                                
+        </div>
+
+
+
+<!--  js tab -->
+
+
+            <!--  content  -->
+
+
+
+
+
+
+
+            <!--  footer element -->
+
+            <footer class="container" style="background: none !important;">
+                <p>&copy; <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                  </script> - KennedyLiabrary system. All Rights Reserved.</p>
+            </footer>
+
+            <!--   footer -->
+
+
+
+</body>
+
+</html>
